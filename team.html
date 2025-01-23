@@ -10,21 +10,44 @@
             
             .member-container{
                 text-align: center;
+                border: .5px solid gray;
+                border-radius: 20px;
+                margin: 5px;
+            }
+            .member-container img{
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+
             }
             .about-button{
                 background-color: #1244B8;
                 color: white;
+                
             }
              .contact-button{
                 background-color: white;
-                color: gray
+                color: gray;
+               
+                
              }
+             .borderless-button{
+                border: none;
+                padding: 8px 16px;
+                border-radius: 7px;
+                margin: 5px;
+             }
+             .div-1{
+                text-align: center;
+             }
+             
             
         </style>
     </head>
 
     <body>
-        <section class="member-container">
+        <section>
+            
+            <div class="div-1">
             <div>
 
             <h1>Meet the Team</h1>
@@ -32,32 +55,33 @@
             </div>
 
             <div>
-            <button class="about-button" title="Go to About Us">About Us</button>
-            <button class="contact-button" title="Go to Contact Us Page">Contact</button>
+            <button class=" borderless-button about-button" title="Go to About Us">About Us</button>
+            <button class=" borderless-button contact-button" title="Go to Contact Us Page"  style=" border: .5px solid grey;">Contact</button>
             </div><br><br>
 
-            <div> 
+            <div class="member-container" > 
                 <div >
                 <img src="C:\Users\Thierry\OneDrive\Documents\Introduction-to-week-2/female member.jpg"alt="annette-black"  height="200" width="200">
                 <p class="member-title">Dog trainer</p>
                 <h3>Annette Black</h3>
                 <p>&spades;</p>
                 </div>
+                </div>
     
-                <div >
+                <div class="member-container"  >
                     <img src="C:\Users\Thierry\OneDrive\Documents\Introduction-to-week-2/male member.jpg"alt="wade-warren"  height="200" width="200">
                     <p class="member-title">Medical Assistant</p>
                     <h3>Wade Warren</h3>
                     <p>&clubs;</p>
 
-                    <div >
+                    <div class="member-container" >
                        <img src="C:\Users\Thierry\OneDrive\Documents\Introduction-to-week-2/female member.jpg"alt="annette-black"  height="200" width="200">
                         <p class="member-title">President of sales</p>
                        <h3>Savannah Nguyen</h3>
                        <p>&hearts;</p>
                     </div>
                     
-                    <div >
+                    <div class="member-container" >
                         <img src="C:\Users\Thierry\OneDrive\Documents\Introduction-to-week-2/male member.jpg"alt="jenny-wilson"  height="200" width="200">
                         <p class="member-title"> Nursing Assistant</p>
                         <h3>Jenny Wilson</h3>
